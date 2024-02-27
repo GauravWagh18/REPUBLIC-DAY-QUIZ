@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: url('./02.jpg') center/cover fixed no-repeat;
+    /* Set your background image */
+}
+
+#quiz-container {
+    max-width: 600px;
+    max-height: 800px;
+    margin: auto;
+    background: linear-gradient(45deg, #ff9933, #ffffff, #138808);
+    /* Indian flag colors */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 250px;
+}
+
+#republic-day-message-container {
+    max-width: 600px;
+    max-height: 800px;
+    margin: auto;
+    background: linear-gradient(45deg, #ff9933, #ffffff, #138808);
+    /* Indian flag colors */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 250px;
+}
+
+.question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.option {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #0b0101;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Hide the Republic Day message container initially */
+.hidden {
+    display: none;
+}
+
+.created-text {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    color: #000000;
+}
+
+.created-text a {
+    color: #ff0000;
+}
